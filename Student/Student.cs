@@ -26,6 +26,10 @@ namespace Student
             AverageMark = averageMark;
         }
 
+        /// <summary>
+        /// Возвращает стипендию студента
+        /// </summary>
+        /// <returns></returns>
         public virtual int GetScholarship()
         {
             int scholarship1 = 2000;
