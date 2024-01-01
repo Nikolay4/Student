@@ -36,7 +36,6 @@ namespace Student
                 {
                     AverageMark = 2,
                 },
-                student1,
                 new Student()
                 {
                     AverageMark = 1,
