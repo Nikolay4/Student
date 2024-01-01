@@ -11,7 +11,7 @@ namespace Student
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Group { get; set; }
-        public double AverageMark { get; set; }
+        public double AverageMark { get; set; } = 5;
 
         public Student()
         {
