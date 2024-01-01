@@ -27,7 +27,6 @@ namespace Student
                     AverageMark = 3.5,
                     Group = "УПП",
                     FirstName = "Костя",
-                    ScientificWork = "аааа",
                 },
                 new Student()
                 {
@@ -38,7 +37,11 @@ namespace Student
                     AverageMark = 2,
                 },
                 aspirant,
-                student1
+                student1,
+                new Student()
+                {
+                    AverageMark = 1,
+                }
             };
 
             foreach (var student in students2)
